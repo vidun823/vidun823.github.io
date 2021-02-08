@@ -1,50 +1,71 @@
-
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8" />
-    <title>My First Page</title>
+<html>
+<head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        code {
-            font-family: monospace;
-            color: chocolate;
-        }
-        body {
-            color:linen;
-        }
+        * {
+  box-sizing: border-box;
+}
+
+    body {
+      margin: 0;
+    }
+    .header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+    }
+    .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+    
     </style>
-</head>
-
+    </head>
 <body>
-    <h1 style="background-color: pink;">my first website</h1>
-    <p style="background-color: aqua; padding: 24px; border-width: thick; border-color: brown; border-style:groove;">This is going to be great</p>
 
-    <p>test, hello N</p>
-    <p> first website:</p>
+    <div class="header">
+        <h1>Welcome to My First Website</h1>
+      </div>
+      <div class="topnav">
+        <a href="#">Home</a>
+        <a href="#">About Me</a>
+        <a href="#">Socials</a>
+      </div>
+    <img src="https://ad-mays.com/wp-content/uploads/2015/07/web-dev-icon.jpg" class="center">
+    <style>
+        img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        </style>
+        <h2>What is this Website?</h2>
+    <p> This is a website developed by me to showcase my work for my web dev assignments and other works. In this Website I will be trying Different HTML tags and CSS and other parts in Web Dev.</p>
 
-    <div style="padding-left: 2cm;">
-        <code>
-            &lt;h1&gt;A piece of computer code&lt;/h1&gt;<br>
-            &lt;style&gt;<br>
-            code { <br>
-            font-family: monospace;<br>
-            }<br>
-            &lt;/style&gt;
-        </code>
-    </div>
 
-    <p>Change the default CSS settings to see the effect.</p>
 
-    <!-- This is from the validator site -->
-    <p>
-        <a href="http://jigsaw.w3.org/css-validator/check/referer">
-            <img style="border:0;width:88px;height:31px"
-                src="http://jigsaw.w3.org/css-validator/images/vcss"
-                alt="Valid CSS!" />
-        </a>
-    </p>
+    
+    <div class="footer">Copyright (C) Hewage Corporation. All rights reserved.</div>
+    </body>
 
-</body>
+
+
+
+
+
+
 
 </html>
